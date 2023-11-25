@@ -3,6 +3,7 @@ on:
   pull_request:
     branches: [ develop ]
     types: [opened, closed, reopened]
+  workflow_dispatch:
 jobs:
   msgram_job:
     runs-on: ubuntu-latest
