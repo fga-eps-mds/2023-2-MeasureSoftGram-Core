@@ -11,7 +11,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: 2023.2 Action MeasureSoftGram
-        uses: fga-eps-mds/2023-2-MeasureSoftGram-Action@v2.2.1    
+        uses: fga-eps-mds/2023-2-MeasureSoftGram-Action@v2.2.2    
         id: msgram
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }} # Token do GitHub
