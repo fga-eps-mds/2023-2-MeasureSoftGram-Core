@@ -2,7 +2,7 @@ name: MSG Action
 on:
   pull_request:
     branches: [ develop ]
-    types: [opened, closed, reopened]
+    types: [opened, closed, reopened, synchronize]
   workflow_dispatch:
 jobs:
   msgram_job:
