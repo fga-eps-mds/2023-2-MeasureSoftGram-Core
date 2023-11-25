@@ -17,4 +17,4 @@ jobs:
           githubToken: ${{ secrets.GITHUB_TOKEN }} # Token do GitHub
           sonarProjectKey: ${{ secrets.SONAR_TOKEN }} # (opcional) Chave do projeto no SonarQube
           msgramServiceToken: ${{ secrets.MSGRAM_SERVICE_TOKEN }} # Token para acessar o serviço MeasureSoftGram
-          productName: "2023-2-MeasureSoftGram-Core" # Nome do produto
+          productName: "MeasureSoftGram" # Nome do produto
