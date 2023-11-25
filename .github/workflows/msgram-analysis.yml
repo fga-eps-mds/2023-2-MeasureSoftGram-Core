@@ -1,8 +1,8 @@
 name: MSG Action
 on:
   pull_request:
-    branches: [ develop ]
-    types: [opened, closed, reopened, synchronize]
+    branches: [ test-msgram ]
+    types: [closed]
   workflow_dispatch:
 jobs:
   msgram_job:
